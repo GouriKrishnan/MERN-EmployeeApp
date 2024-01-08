@@ -1,0 +1,37 @@
+
+/* Main.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style the AppBar */
+.app-bar {
+  background-color: #320b54;
+}
+
+/* Style the Toolbar */
+.toolbar {
+  display: flex;
+  justify-content:space-between;
+  width: 100%; 
+  
+}
+
+/* Style the Typography component inside the Toolbar */
+.toolbar-typography {
+  color: #fff;
+}
+
+/* Style the buttons */
+.toolbar-buttons {
+  display: flex;
+  margin-left: auto;
+}
+
+.toolbar-buttons .button {
+  margin-left: 10px; /* Adjust the spacing between buttons */
+  color: #fff;
+  
+}

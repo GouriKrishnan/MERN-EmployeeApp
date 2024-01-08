@@ -1,0 +1,25 @@
+*
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-color: #141111;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh; /* Set the body height to the full viewport height */
+}
+
+.container {
+  position: relative;
+  margin-top: 100px;
+  width: 450px;
+  height: auto;
+  background: transparent;
+  border: 1px solid #141111; /* Add border style and color */
+  border-radius: 8px;
+  padding: 20px; /* Add padding for better aesthetics */
+}
